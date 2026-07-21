@@ -1,0 +1,78 @@
+html{
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+footer{
+    font-size: 0.75rem;
+}
+.journal {
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1rem;
+}
+
+.entry {
+    margin-bottom: 2rem;
+}
+
+time {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.entry p {
+    margin-bottom: 1rem;
+}
+.redacted{
+    position: relative;
+    display: inline-block;
+    
+}
+
+.redacted::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+
+
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+
+    font-family: inherit;
+    letter-spacing: inherit;
+    font-weight:bold;
+}
+.redacted::before {
+    content: "";
+    position: absolute;
+    left: -0.5em;
+    top: 0.09em;
+
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+
+    font-family: inherit;
+    letter-spacing: inherit;
+    font-weight:bold;
+}
+
+
+.redacted2{
+    background:#111;
+    color:#111;
+    user-select:none;
+}
+.cover{
+    position:absolute;
+    left:0;
+    top:0;
+    overflow:hidden;
+    letter-spacing:0.5;
+    font-weight:bold;
+}
+
+
