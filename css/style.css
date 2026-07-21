@@ -74,5 +74,13 @@ time {
     letter-spacing:0.5;
     font-weight:bold;
 }
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  color: blue; /* or #0066cc */
+}
+
 
 
