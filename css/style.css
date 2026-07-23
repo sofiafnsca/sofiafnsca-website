@@ -5,10 +5,18 @@ footer{
     font-size: 0.75rem;
 }
 .journal {
-    max-width: 650px;
-    margin: 0 auto;
-    line-height: 1rem;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 18px;
+  box-sizing: border-box;
 }
+@media (max-width: 700px) {
+  .journal {
+    padding: 0 40px;
+  }
+}
+
+
 
 .entry {
     margin-bottom: 2rem;
@@ -81,7 +89,6 @@ a:active,
 a:focus {
   color: blue; /* or #0066cc */
 }
-
 
 
 
