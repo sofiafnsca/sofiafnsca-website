@@ -22,6 +22,7 @@ time {
 
 .entry p {
     margin-bottom: 1rem;
+
 }
 .redacted{
     position: relative;
@@ -80,6 +81,7 @@ a:active,
 a:focus {
   color: blue; /* or #0066cc */
 }
+
 
 
 
