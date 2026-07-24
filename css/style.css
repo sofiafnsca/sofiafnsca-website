@@ -12,7 +12,7 @@ footer{
 }
 @media (max-width: 700px) {
   .journal {
-    padding: 0 40px;
+    padding: 0 2.2rem;
   }
 }
 
