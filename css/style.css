@@ -5,10 +5,11 @@ footer{
     font-size: 0.75rem;
 }
 .journal {
-  max-width: 650px;
+  max-width: 40.625rem;
   margin: 0 auto;
-  padding: 0 18px;
+  padding: 0 1.125rem;
   box-sizing: border-box;
+   text-align: justify;
 }
 @media (max-width: 700px) {
   .journal {
@@ -87,8 +88,7 @@ a:visited,
 a:hover,
 a:active,
 a:focus {
-  color: blue; /* or #0066cc */
-}
+  color: rgb(0, 0, 238); /* or #0066cc */}
 
 
 
