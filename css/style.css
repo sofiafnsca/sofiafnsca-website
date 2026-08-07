@@ -52,7 +52,6 @@ time {
 
     font-family: inherit;
     letter-spacing: inherit;
-    font-weight:bold;
 }
 .redacted::before {
     content: "";
@@ -66,7 +65,7 @@ time {
 
     font-family: inherit;
     letter-spacing: inherit;
-    font-weight:bold;
+    
 }
 
 
@@ -81,7 +80,7 @@ time {
     top:0;
     overflow:hidden;
     letter-spacing:0.5;
-    font-weight:bold;
+
 }
 a,
 a:visited,
