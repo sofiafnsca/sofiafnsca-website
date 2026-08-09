@@ -1,0 +1,124 @@
+html{
+    font-family: 'Courier New', Courier, monospace; 
+}
+footer{
+    font-size: 0.75rem;
+}
+.journal {
+  max-width: 40.625rem;
+  margin: 0 auto;
+  padding: 0 1.125rem;
+  box-sizing: border-box;
+   text-align: justify;
+}
+@media (max-width: 700px) {
+  .journal {
+    padding: 0 2.2rem;
+  }
+}
+
+
+
+.entry {
+    margin-bottom: 2rem;
+}
+
+time {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.entry p {
+    margin-bottom: 1rem;
+
+}
+.redacted{
+    position: relative;
+    display: inline-block;
+    
+}
+
+.redacted::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+
+
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+
+    font-family: inherit;
+    letter-spacing: inherit;
+}
+.redacted::before {
+    content: "";
+    position: absolute;
+    left: -0.5em;
+    top: 0.09em;
+
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+
+    font-family: inherit;
+    letter-spacing: inherit;
+    
+}
+
+
+.redacted2{
+    background:#111;
+    color:#111;
+    user-select:none;
+}
+.cover{
+    position:absolute;
+    left:0;
+    top:0;
+    overflow:hidden;
+    letter-spacing:0.5;
+
+}
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  color: rgb(0, 0, 238); /* or #0066cc */}
+
+
+:root {
+  color-scheme: light dark;
+
+  --background: #ffffff;
+  --text: #1c1c1c;
+  --surface: #f3f4f6;
+  --border: #d1d5db;
+}
+
+@media (prefers-color-scheme: dark) 
+{
+  :root {
+    --background: #121212;
+    --text: #f5f5f5;
+    --surface: #202020;
+    --border: #3b3b3b;
+ a {
+    color: red;
+  }
+
+
+body {
+  background: var(--background);
+  color: var(--text);
+}
+
+
+
+
+
+
+
