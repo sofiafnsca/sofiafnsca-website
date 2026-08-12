@@ -109,7 +109,12 @@ a:focus {
  a {
     color: red;
   }
-
+ .redacted2 {
+    background: white;
+    color: white;
+    user-select: none;
+  }
+}
 
 body {
   background: var(--background);
