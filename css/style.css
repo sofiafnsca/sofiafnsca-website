@@ -98,7 +98,18 @@ a:focus {
   --surface: #f3f4f6;
   --border: #d1d5db;
 }
+  mark {
+    background-color: #D2E3FC; /* light mode */
+    color: #202124;
+  }
+   .flashing-text {
+    animation: flash 0.5s steps(1, end) infinite;
+  }
 
+  @keyframes flash {
+    0%, 49% { color: #121212; }
+    50%, 100% { color: white; }
+  }
 @media (prefers-color-scheme: dark) 
 {
   :root {
@@ -120,6 +131,11 @@ body {
   background: var(--background);
   color: var(--text);
 }
+    mark {
+      background-color: #223EA1; /* dark mode */
+      color: white;
+    }
+  }
 
 
 
